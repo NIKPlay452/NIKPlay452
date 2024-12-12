@@ -1,0 +1,81 @@
+.container {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.Flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Flex:not(:last-child) {
+    margin: 30px 0;
+}
+
+.boxText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 936px;
+    height: 113px;
+    text-align: center;
+    background-color: #474747;
+    border-radius: 15px;
+    color: white;
+    font-size: 60px;
+}
+
+.btnDel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 113px;
+    width: 170px;
+    justify-content: space-around;
+    font-size: 40px;
+    color: white;
+    background-color: #474747;
+    border-radius: 15px;
+}
+
+.btnDel button {
+    height: 30px;
+    width: 150px;
+    background-color: #3C3C3C;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.containerImg {
+    background-color: #474747;
+}
+
+.containerImg img {
+    width: 196px;
+    height: 196px;
+}
+
+.line {
+    width: 100%;
+    background-color: white;
+    height: 1px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnBuy {
+    margin-bottom: 30px;
+    height: 40px;
+    width: 200px;
+    background-color: #3C3C3C;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.sec {
+    background-color: #0000006B;
+}
+
+.Nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+    background-color: #00000070;
+}
+
+.itemTop:not(:last-child) {
+    margin-right: 37px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
