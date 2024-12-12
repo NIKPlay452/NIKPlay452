@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000BD;
+  font-family: "Inter", serif;
+}
+
+a,
+ul,
+li {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}

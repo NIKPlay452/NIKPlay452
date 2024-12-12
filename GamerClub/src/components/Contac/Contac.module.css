@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 117px;
+}
+
+.h2Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 977px;
+    height: 113px;
+    text-align: center;
+    background-color: #474747;
+    border-radius: 15px;
+    font-size: 60px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 63px;
+    background-color: #474747;
+    border-radius: 15px ;
+    width: 977px;
+    height: 297px;
+}
+
+.textPo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 22px;
+}
+
+.TextBot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textF {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.TextS {
+    font-size: 40px;
+}
